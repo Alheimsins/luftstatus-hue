@@ -1,0 +1,51 @@
+{
+  "name": "luftstatus-hue",
+  "description": "Change the colour of your hue lightbulb according to air pollution status",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=10.5.0"
+  },
+  "scripts": {
+    "test": "standard && npm audit && ava",
+    "test-offline": "standard && ava",
+    "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix",
+    "start": "node index.js",
+    "setup": "node lib/setup.js",
+    "list": "node lib/list-lights.js",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
+  },
+  "keywords": [
+    "Hue",
+    "Philips Hue",
+    "alheimsins",
+    "pollution"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alheimsins/luftstatus-hue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Alheimsins/luftstatus-hue/issues"
+  },
+  "homepage": "https://github.com/Alheimsins/luftstatus-hue#readme",
+  "devDependencies": {
+    "ava": "0.25.0",
+    "coveralls": "3.0.1",
+    "nyc": "12.0.2",
+    "standard": "11.0.1"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "philips-hue": "1.2.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "bridge": "127.0.0.1",
+  "username": "c1faa0ab-11aa-466a-b87e-20aefbccfb8b",
+  "light": 3,
+  "serviceUrl": "https://s3.eu-central-1.amazonaws.com/luftstatus/areas.json",
+  "area": "Grenland",
+  "pollIntervalMinutes": 60
+}
