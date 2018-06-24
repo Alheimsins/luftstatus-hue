@@ -21,9 +21,9 @@ const getColor = async () => {
   } catch (error) {
     console.error(error)
     return {
-      "sat": 140,
-      "bri": 254,
-      "hue": 14956
+      'sat': 140,
+      'bri': 254,
+      'hue': 14956
     }
   }
 }
