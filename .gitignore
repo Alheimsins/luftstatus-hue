@@ -69,3 +69,7 @@ typings/
 
 # Lock
 package-lock.json
+
+# Dev
+test.json
+tst.js

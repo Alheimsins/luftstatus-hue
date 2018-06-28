@@ -16,6 +16,7 @@ If you have all this just update the values in [config.json](config.json).
   "bridge": "127.0.0.1",
   "username": "c1faa0ab-11aa-466a-b87e-20aefbccfb8b",
   "light": 1,
+  "token": 'uihef98efuijef98fewfne0', // Optional. Only needed for remote api
   "serviceUrl": "https://s3.eu-central-1.amazonaws.com/luftstatus/areas.json",
   "area": "Grenland",
   "pollIntervalMinutes": 60

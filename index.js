@@ -5,6 +5,7 @@ const convertColor = require('./lib/convert-color')
 
 const switchColor = async colors => {
   try {
+    console.log(colors)
     await setColor(colors)
     console.log(`Light switched to ${JSON.stringify(colors)}`)
   } catch (error) {
