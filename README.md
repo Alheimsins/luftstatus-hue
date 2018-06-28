@@ -31,21 +31,46 @@ Pick your area from [this list](https://s3.eu-central-1.amazonaws.com/luftstatus
 
 Add it to [config.json](config.json)
 
-## Find bridgeip and add a user
+## Find bridgeip
 
-First run the setup script
-
-```
-$ npm run setup
-```
-
-This will result in an error. Now push the link-button on your bridge and rund the script again.
+First run find bridge script
 
 ```
-$ npm run setup
+$ npm run findBridge
 ```
 
-Add the values to [config.json](config.json) and move on.
+This will return a list of bridges on your network.
+
+```JavaScript
+[
+  {
+    "id": "0287dgdt93",
+    "internalipaddress": "192.168.1.110"
+  }
+]
+```
+
+Add the ```internalipaddress``` value to your config's ```bridge```
+
+## Add a user
+
+Push the link button on your bridge and run the addUser script
+
+```
+$ npm run addUser
+```
+
+```JavaScript
+[
+  {
+    "success": {
+      "username": "VK5h1bIbP6wtyAz6W4O5VbcuVqbrdqU4-iqLiyVU"
+    }
+  }
+]
+```
+
+Add the values from ``` username ``` to [config.json](config.json) and move on.
 
 ## Find your lightbulbs
 
@@ -55,7 +80,7 @@ Run the list script
 $ npm run list
 ```
 
-Find the light you want and add it to [config.json](config.json)
+Find the light you want to use and add the id to [config.json](config.json)
 
 You are now ready to start.
 

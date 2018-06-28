@@ -19,9 +19,10 @@
     "coverage": "nyc ava",
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
     "standard-fix": "standard --fix",
+    "findBridge": "node utils/find-bridge",
+    "addUser": "node utils/add-user",
+    "list": "node utils/list-lights.js",
     "start": "node index.js",
-    "setup": "node lib/setup.js",
-    "list": "node lib/list-lights.js",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
   "keywords": [
@@ -45,7 +46,6 @@
     "standard": "11.0.1"
   },
   "dependencies": {
-    "axios": "0.18.0",
-    "philips-hue": "1.2.0"
+    "axios": "0.18.0"
   }
 }

@@ -1,6 +1,6 @@
 {
-  "bridge": "127.0.0.1",
-  "username": "c1faa0ab-11aa-466a-b87e-20aefbccfb8b",
+  "bridge": "192.168.10.153",
+  "username": "VK5h1bIbP6wtyAz6W4O5VbcuVqbrdqU4-iqLiyVU",
   "light": 3,
   "serviceUrl": "https://s3.eu-central-1.amazonaws.com/luftstatus/areas.json",
   "area": "Grenland",
