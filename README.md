@@ -96,4 +96,9 @@ As long as it runs the script will check the status every config.pollIntervalMin
 
 [MIT](LICENSE)
 
-![Robohash image of luftstatus-hue](https://robots.kebabstudios.party/luftstatus-hue.png "Robohash image of luftstatus-hue")
+## About
+
+Created with ❤ for [Alheimsins](https://alheimsins.net)
+
+<img src="https://image.ibb.co/dPH08G/logo_black.png" alt="Alhemsins logo" height="150px" width="150px" />
+
