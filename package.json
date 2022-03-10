@@ -46,6 +46,6 @@
     "standard": "16.0.4"
   },
   "dependencies": {
-    "axios": "0.26.0"
+    "axios": "0.26.1"
   }
 }
